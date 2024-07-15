@@ -1,0 +1,129 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: dimgray;
+  padding: 10px;
+}
+.Logo{
+  margin-left: 50px;
+  height: 60px;
+  width: 170px;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 200px;
+  padding-top: 10px;
+  align-items: end;
+  text-align: end;
+  color: #ffffff;
+  cursor: pointer;
+}
+.navbar-item {
+  margin: 0 2em;
+}
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+.navbar-item a:hover {
+  text-decoration: none;
+}
+.heading{
+  text-align: center;
+}
+.dashboard-container{
+  display: grid;
+  place-items: center;
+  background-image: url('https://res.cloudinary.com/dgkru5vsg/image/upload/v1691830489/samples/imagecon-group.jpg');
+  height: 70vh;
+}
+.dashboard{
+  background-color: #322e2e;
+  padding: 50px;
+  border-radius: 20px;
+  width: 400px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.dashboard h1{
+  color: coral;
+}
+.dashboard p{
+  text-align: start;
+  padding-left: 120px;
+}
+.dashboard button{
+  width: 40%;
+  padding: 10px;
+  background-color: darkgreen;
+  border: 0px solid;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media (max-width: 575.98px) {
+  /* CSS rules for extra small devices */
+  .navbar{
+    padding: 0px;
+  }
+  .Logo{
+    height: 0px;
+    width: 0px;
+  }
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
+.navbar-item {
+  margin: 0 1em;
+}
+.navbar-item a {
+  font-size: 0px;
+  font-weight: 0;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices */
+  .navbar{
+    padding: 0px;
+  }
+  .Logo{
+    height: 0px;
+    width: 0px;
+  }
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
+.navbar-item {
+  margin: 0 1em;
+}
+.navbar-item a {
+  font-size: 0px;
+  font-weight: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices */
+  .Logo{
+    margin-left: 0px;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  .navbar-list {
+    padding-right: 50px;
+  }
+}

@@ -1,0 +1,145 @@
+.loginpage-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.login-right-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  background-image: url("https://res.cloudinary.com/dgkru5vsg/image/upload/v1721065107/blue-wallpaper-6_qqpuon.jpg");
+  height: 80vh;
+  width: 30vw;
+  margin-right: 500px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.login-right-container h1{
+  font-size: 60px;
+  font-weight: 900;
+}
+.login-right-container span{
+  font-family:monospace;
+  font-size: 40px;
+}
+.login-left-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+  width: 30vw;
+  margin-left: 300px;
+  flex-direction: column;
+  background-color: #00796b;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.login-left-container h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(215, 190, 142);
+}
+.login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 300px;
+  display: grid;
+  gap: 1rem;
+}
+
+.login-form input {
+  padding: 0.5rem;
+  border: 1px solid #00796b;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.login-form button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #00796b;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #004d40;
+}
+@media (max-width: 575.98px) {
+  /* CSS rules for extra small devices */
+  .login-right-container{
+    height: 0vh;
+    width: 0vw;
+    margin-right: 0px;
+  }
+   
+.login-right-container h1{
+  font-size: 0px;
+  font-weight: 0;
+}
+.login-right-container span{
+  font-size: 0px;
+}
+
+.login-left-container{
+  height: 80vh;
+  width: 80vw;
+  margin-left: 60px;
+  flex-direction: column;
+  background-color: #00796b;
+ border-radius: 20px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices */
+  .login-right-container{
+    height: 0vh;
+    width: 0vw;
+    margin-right: 0px;
+  }
+   
+.login-right-container h1{
+  font-size: 0px;
+  font-weight: 0;
+}
+.login-right-container span{
+  font-size: 0px;
+}
+
+.login-left-container{
+  height: 80vh;
+  width: 80vw;
+  margin-left: 60px;
+  flex-direction: column;
+  background-color: #00796b;
+ border-radius: 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices */
+  .login-right-container{
+    height: 80vh;
+    width: 40vw;
+    margin-right: 200px;
+  }
+  .login-left-container{
+    height: 80vh;
+    width: 50vw;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for large devices */
+  .login-form {
+    width: 200px;
+  }
+}

@@ -1,0 +1,225 @@
+.main-Container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(182, 219, 251);
+  padding: 30px;
+  background-size: cover;
+}
+/* ----------left-container---------- */
+.left-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  background-image: url("https://res.cloudinary.com/dgkru5vsg/image/upload/v1721053007/syoftBGIMG_pvzy6x.avif");
+  background-size: cover;
+  height: 90vh;
+  width: 60vw;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.left-container h1{
+  color: #ffffff;
+  font-size: 50px;
+}
+.left-container p{
+    color: #b8c3cb;
+    font-size: 15px;
+    margin-left: 55px;
+}
+.person{
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: -18px;
+}
+.join-us{
+  display: flex;
+  justify-content:start;
+  align-items: start;
+  text-align: left;
+}
+.join-us p{
+  margin: 25px 0px 35px 40px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #d0d0d0;
+}
+
+/* -----------right-container------------ */
+
+.right-container{
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px ;
+  background-color:#ffffff;
+  width: 30vw;
+  /* padding-bottom: 20px; */
+  height: 90vh;
+}
+.logo{
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 1000;
+  text-align: left;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+.signup-container p{
+  font-size: 15px;
+  margin: 2px;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+.signup-form{
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 25px;
+}
+.signup-container lable{
+  font-weight: bold;
+  font-size: 13px;
+}
+.signup-container input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%;
+}
+.checkbox-container{
+display: grid;
+grid-template-columns: 1fr 9fr;
+gap: 10px;
+font-family: "Roboto";
+font-size: 13px;
+font-weight: bold;
+}
+.checkbox-container input{
+height: 15px;
+}
+.lable{
+   font-size: 15px;
+}
+span{
+color: rgb(87, 87, 231);
+}
+.submit-button{
+  padding: 0.5rem;
+  border: none;
+  border-radius: 17px;
+  background-color: #6122ce;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+@media (max-width: 575.98px) {
+  /* CSS rules for extra small devices */
+  .left-container{
+    background-size: cover;
+    height: 0vh;
+    width: 0vw;
+  }
+  .left-container h1{
+    font-size: 0px;
+  }
+  .left-container p{
+      font-size: 0px;
+  }
+  
+.person{
+  height: 0px;
+  width: 0px;
+}
+.join-us p{
+  font-size: 0px;
+}
+
+.right-container{
+  width: 70vw;
+  border-radius: 20px;
+  height: 90vh;
+  margin-right: 50px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices */
+  .left-container{
+    background-size: cover;
+    height: 0vh;
+    width: 0vw;
+  }
+  .left-container h1{
+    font-size: 0px;
+  }
+  .left-container p{
+      font-size: 0px;
+  }
+  
+.person{
+  height: 0px;
+  width: 0px;
+}
+.join-us p{
+  font-size: 0px;
+}
+
+.right-container{
+  width: 70vw;
+  border-radius: 20px;
+  height: 90vh;
+  margin-right: 50px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices */
+  .left-container{
+    height: 90vh;
+    width: 50vw;
+  }
+  .right-container{
+    width: 45vw;
+    height: 90vh;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for large devices */
+  .left-container{
+    height: 90vh;
+    width: 60vw;
+  }
+  .right-container{
+    width: 40vw;
+    height: 90vh;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
