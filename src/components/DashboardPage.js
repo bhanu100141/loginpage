@@ -42,9 +42,9 @@ function DashboardPage() {
               <li className="navbar-item">About</li>
               <li className="navbar-item">Contact</li>
               <Link className="signup-link" to="/">
-              <span className="In">Sign in</span></Link>
+              <span className="In">SignIn</span></Link>
               <Link className="signup-link" to="/loginpage">
-              <span className="In">Log in</span>
+              <span className="In">LogIn</span>
             </Link>
             </ul>
           </div>
