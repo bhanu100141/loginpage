@@ -36,7 +36,7 @@ function SignUpPage() {
 
       if (response.data.status) {
         alert("Registration Successful");
-        navigate("/login"); // Navigate to the login page
+        navigate("/loginpage"); // Navigate to the login page
       } else {
         alert(response.data.msg); // Handle error message
       }
@@ -91,7 +91,7 @@ function SignUpPage() {
             Already have an account? <span>Sign in</span>
           </p>
             <form className='signup-form' onSubmit={handleSubmit}>
-              <lable>Full Name*</lable>
+              <label>Full Name*</label>
               <input
                 type="text"
                 name="user_firstname"
@@ -99,7 +99,7 @@ function SignUpPage() {
                 onChange={handleChange}
                 required
               />
-              <lable>Mail*</lable>
+              <label>Mail*</label>
               <input
                 type="email"
                 name="user_email"
@@ -107,7 +107,7 @@ function SignUpPage() {
                 onChange={handleChange}
                 required
               />
-              <lable>Mobile Number*</lable>
+              <label>Mobile Number*</label>
               <input
                 type="text"
                 name="user_phone"
@@ -115,7 +115,7 @@ function SignUpPage() {
                 onChange={handleChange}
                 required
               />
-              <lable>Password*</lable>
+              <label>Password*</label>
               <input
                 type="password"
                 name="user_password"
@@ -133,10 +133,10 @@ function SignUpPage() {
                   onChange={handleChange}
                   required
                 />
-                <lable className="lable"for="checkbox">
+                <label className="lable" htmlFor="checkbox">
                   I agree to the <span>Terms of Service</span> and{" "}
                   <span>Privacy Policy</span>
-                </lable>
+                </label>
               </div>
               </div>
               <button className="submit-button" type="submit">Create your free account</button>

@@ -27,7 +27,7 @@ function LoginPage() {
       if (response.data.status) {
         const userData = response.data.user_data[0];
         localStorage.setItem("user", JSON.stringify(userData));
-        navigate("/dashboard");
+        navigate("/dashboardpage");
       } else {
         alert(response.data.msg);
       }

@@ -10,7 +10,7 @@ function DashboardPage() {
     const storedUser = JSON.parse(localStorage.getItem("user"));
 
     if (!storedUser) {
-      navigate("/login");
+      navigate("/loginpage");
     } else {
       setUser(storedUser);
     }
@@ -18,7 +18,7 @@ function DashboardPage() {
 
   const handleLogout = () => {
     localStorage.removeItem("user");
-    navigate("/login");
+    navigate("/loginpage");
   };
 
   if (!user) {

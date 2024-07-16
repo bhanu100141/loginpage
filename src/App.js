@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import SignUpPage from "./components/SignUpPage";
 import LoginPage from "./components/LoginPage";
 import DashboardPage from "./components/DashboardPage";
@@ -10,10 +10,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<SignUpPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/dashboardPage" element={<DashboardPage />} />
+        <Route path="/loginpage" element={<LoginPage />} />
+        <Route path="/dashboardpage" element={<DashboardPage />} />
       </Routes>
-    </Router>
+      </Router>
   );
 }
 
