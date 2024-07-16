@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import "./DashboardPage.css";
 
 function DashboardPage() {
@@ -38,10 +38,14 @@ function DashboardPage() {
           <div>
             <ul className="navbar-list">
               <li className="navbar-item">Home</li>
-              <li className="navbar-item">Dashboard</li>
               <li className="navbar-item">Services</li>
               <li className="navbar-item">About</li>
               <li className="navbar-item">Contact</li>
+              <Link className="signup-link" to="/">
+              <span className="In">Sign in</span></Link>
+              <Link className="signup-link" to="/loginpage">
+              <span className="In">Log in</span>
+            </Link>
             </ul>
           </div>
         </nav>

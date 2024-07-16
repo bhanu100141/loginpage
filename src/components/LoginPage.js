@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -59,6 +59,12 @@ function LoginPage() {
           />
           <button type="submit">Login</button>
         </form>
+        <p>
+            New User?{" "}
+            <Link className="signup-link" to="/">
+              <span className="login-span">Sign in</span>
+            </Link>
+          </p>
       </div>
       <div className="login-right-container">
         <h1>

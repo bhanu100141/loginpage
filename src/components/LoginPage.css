@@ -74,6 +74,10 @@
 .login-form button:hover {
   background-color: #004d40;
 }
+.login-span{
+  color: white;
+  font-weight: bold;
+}
 @media (max-width: 575.98px) {
   .login-right-container {
     height: 0vh;
