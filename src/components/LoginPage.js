@@ -37,36 +37,36 @@ function LoginPage() {
   };
 
   return (
-      <div className="loginpage-container">
-        <div className="login-left-container">
-          <h1>Login</h1>
-          <form className="login-form" onSubmit={handleSubmit}>
+    <div className="loginpage-container">
+      <div className="login-left-container">
+        <h1>Login</h1>
+        <form className="login-form" onSubmit={handleSubmit}>
           <label htmlFor="user_email">Mail*</label>
-            <input
-              type="email"
-              name="user_email"
-              placeholder="Email"
-              onChange={handleChange}
-              required
-            />
-            <label htmlFor="user_password">Password*</label>
-            <input
-              type="password"
-              name="user_password"
-              placeholder="Password"
-              onChange={handleChange}
-              required
-            />
-            <button type="submit">Login</button>
-          </form>
-        </div>
-        <div className="login-right-container">
-          <h1>
-            Hello,<br></br>
-            <span>Welcome to</span> <br></br> Login <span>Page</span>
-          </h1>
-        </div>
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            onChange={handleChange}
+            required
+          />
+          <label htmlFor="user_password">Password*</label>
+          <input
+            type="password"
+            name="user_password"
+            placeholder="Password"
+            onChange={handleChange}
+            required
+          />
+          <button type="submit">Login</button>
+        </form>
       </div>
+      <div className="login-right-container">
+        <h1>
+          Hello,<br></br>
+          <span>Welcome to</span> <br></br> Login <span>Page</span>
+        </h1>
+      </div>
+    </div>
   );
 }
 export default LoginPage;

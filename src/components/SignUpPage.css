@@ -1,4 +1,4 @@
-.main-Container{
+.main-Container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: rgb(182, 219, 251);
@@ -6,7 +6,7 @@
   background-size: cover;
 }
 /* ----------left-container---------- */
-.left-container{
+.left-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,49 +19,46 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.left-container h1{
+.left-container h1 {
   color: #ffffff;
   font-size: 50px;
 }
-.left-container p{
-    color: #b8c3cb;
-    font-size: 15px;
-    margin-left: 55px;
+.left-container p {
+  color: #b8c3cb;
+  font-size: 15px;
+  margin-left: 55px;
 }
-.person{
+.person {
   height: 50px;
   border-radius: 50%;
   width: 50px;
   margin-right: -18px;
 }
-.join-us{
+.join-us {
   display: flex;
-  justify-content:start;
+  justify-content: start;
   align-items: start;
   text-align: left;
 }
-.join-us p{
+.join-us p {
   margin: 25px 0px 35px 40px;
   font-size: 10px;
   font-weight: bold;
   color: #d0d0d0;
 }
-
 /* -----------right-container------------ */
-
-.right-container{
+.right-container {
   display: flex;
   text-align: start;
   align-items: center;
   justify-content: center;
   border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px ;
-  background-color:#ffffff;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
   width: 30vw;
-  /* padding-bottom: 20px; */
   height: 90vh;
 }
-.logo{
+.logo {
   height: 90px;
   margin: 0px;
   padding: 0px;
@@ -75,29 +72,29 @@
   margin: 0px;
   padding: 0px;
 }
-.signup-container p{
+.signup-container p {
   font-size: 15px;
   margin: 2px;
   padding: 0px;
   margin-bottom: 25px;
   font-family: "Roboto";
 }
-.signup-container p span{
+.signup-container p span {
   color: blue;
   font-weight: bold;
 }
-.signup-link{
+.signup-link {
   text-decoration: none;
 }
-.signup-form{
+.signup-form {
   display: grid;
   gap: 1rem;
   margin-bottom: 25px;
 }
-.signup-form label{
+.signup-form label {
   font-weight: bold;
 }
-.signup-container lable{
+.signup-container lable {
   font-weight: bold;
   font-size: 13px;
 }
@@ -107,24 +104,24 @@
   border-radius: 4px;
   width: 90%;
 }
-.checkbox-container{
-display: grid;
-grid-template-columns: 1fr 9fr;
-gap: 10px;
-font-family: "Roboto";
-font-size: 13px;
-font-weight: bold;
+.checkbox-container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 10px;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: bold;
 }
-.checkbox-container input{
-height: 15px;
+.checkbox-container input {
+  height: 15px;
 }
-.lable{
-   font-size: 15px;
+.lable {
+  font-size: 15px;
 }
-span{
-color: rgb(87, 87, 231);
+span {
+  color: rgb(87, 87, 231);
 }
-.submit-button{
+.submit-button {
   padding: 0.5rem;
   border: none;
   border-radius: 17px;
@@ -136,101 +133,74 @@ color: rgb(87, 87, 231);
   margin-top: 15px;
 }
 @media (max-width: 575.98px) {
-  /* CSS rules for extra small devices */
-  .left-container{
+  .left-container {
     background-size: cover;
     height: 0vh;
     width: 0vw;
   }
-  .left-container h1{
+  .left-container h1 {
     font-size: 0px;
   }
-  .left-container p{
-      font-size: 0px;
+  .left-container p {
+    font-size: 0px;
   }
-  
-.person{
-  height: 0px;
-  width: 0px;
-}
-.join-us p{
-  font-size: 0px;
-}
-
-.right-container{
-  width: 70vw;
-  border-radius: 20px;
-  height: 90vh;
-  margin-right: 50px;
-}
+  .person {
+    height: 0px;
+    width: 0px;
+  }
+  .join-us p {
+    font-size: 0px;
+  }
+  .right-container {
+    width: 70vw;
+    border-radius: 20px;
+    height: 90vh;
+    margin-right: 50px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* CSS rules for small devices */
-  .left-container{
+  .left-container {
     background-size: cover;
     height: 0vh;
     width: 0vw;
   }
-  .left-container h1{
+  .left-container h1 {
     font-size: 0px;
   }
-  .left-container p{
-      font-size: 0px;
+  .left-container p {
+    font-size: 0px;
   }
-  
-.person{
-  height: 0px;
-  width: 0px;
-}
-.join-us p{
-  font-size: 0px;
-}
-
-.right-container{
-  width: 70vw;
-  border-radius: 20px;
-  height: 90vh;
-  margin-right: 50px;
-}
+  .person {
+    height: 0px;
+    width: 0px;
+  }
+  .join-us p {
+    font-size: 0px;
+  }
+  .right-container {
+    width: 70vw;
+    border-radius: 20px;
+    height: 90vh;
+    margin-right: 50px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* CSS rules for medium devices */
-  .left-container{
+  .left-container {
     height: 90vh;
     width: 50vw;
   }
-  .right-container{
+  .right-container {
     width: 45vw;
     height: 90vh;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* CSS rules for large devices */
-  .left-container{
+  .left-container {
     height: 90vh;
     width: 60vw;
   }
-  .right-container{
+  .right-container {
     width: 40vw;
     height: 90vh;
   }
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

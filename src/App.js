@@ -1,9 +1,8 @@
 import React from "react";
-import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUpPage from "./components/SignUpPage";
 import LoginPage from "./components/LoginPage";
 import DashboardPage from "./components/DashboardPage";
-import "./App.css";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <Route path="/loginpage" element={<LoginPage />} />
         <Route path="/dashboardpage" element={<DashboardPage />} />
       </Routes>
-      </Router>
+    </Router>
   );
 }
 

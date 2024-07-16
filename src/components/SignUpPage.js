@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./SignUpPage.css";
 
 function SignUpPage() {
@@ -36,9 +36,9 @@ function SignUpPage() {
 
       if (response.data.status) {
         alert("Registration Successful");
-        navigate("/loginpage"); // Navigate to the login page
+        navigate("/loginpage");
       } else {
-        alert(response.data.msg); // Handle error message
+        alert(response.data.msg);
       }
     } catch (error) {
       console.error("There was an error registering!", error);
@@ -49,7 +49,10 @@ function SignUpPage() {
   return (
     <div className="main-Container">
       <div className="left-container">
-        <h1>Welcome to <br />our community</h1>
+        <h1>
+          Welcome to <br />
+          our community
+        </h1>
         <p>
           Fuse helps developers to build organized and well coded <br />
           dashboards full of beautiful and rich modules. Join us and start
@@ -88,9 +91,12 @@ function SignUpPage() {
           />
           <h2>Sign Up</h2>
           <p>
-            Already have an account? <Link className="signup-link" to="/loginpage"><span>Sign in</span></Link>
+            Already have an account?{" "}
+            <Link className="signup-link" to="/loginpage">
+              <span>Sign in</span>
+            </Link>
           </p>
-          
+
           <form className="signup-form" onSubmit={handleSubmit}>
             <label htmlFor="user_firstname">Full Name*</label>
             <input
@@ -137,10 +143,13 @@ function SignUpPage() {
                 required
               />
               <label className="label" htmlFor="checkbox">
-                I agree to the <span>Terms of Service</span> and <span>Privacy Policy</span>
+                I agree to the <span>Terms of Service</span> and{" "}
+                <span>Privacy Policy</span>
               </label>
             </div>
-            <button className="submit-button" type="submit">Create your free account</button>
+            <button className="submit-button" type="submit">
+              Create your free account
+            </button>
           </form>
         </div>
       </div>
