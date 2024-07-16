@@ -41,6 +41,7 @@ function LoginPage() {
         <div className="login-left-container">
           <h1>Login</h1>
           <form className="login-form" onSubmit={handleSubmit}>
+          <label htmlFor="user_email">Mail*</label>
             <input
               type="email"
               name="user_email"
@@ -48,6 +49,7 @@ function LoginPage() {
               onChange={handleChange}
               required
             />
+            <label htmlFor="user_password">Password*</label>
             <input
               type="password"
               name="user_password"

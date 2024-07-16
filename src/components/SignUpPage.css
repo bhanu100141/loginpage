@@ -80,11 +80,22 @@
   margin: 2px;
   padding: 0px;
   margin-bottom: 25px;
+  font-family: "Roboto";
+}
+.signup-container p span{
+  color: blue;
+  font-weight: bold;
+}
+.signup-link{
+  text-decoration: none;
 }
 .signup-form{
   display: grid;
   gap: 1rem;
   margin-bottom: 25px;
+}
+.signup-form label{
+  font-weight: bold;
 }
 .signup-container lable{
   font-weight: bold;
