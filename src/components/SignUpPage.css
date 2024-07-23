@@ -96,7 +96,7 @@
 }
 .signup-container lable {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 5px;
 }
 .signup-container input {
   padding: 0.5rem;
@@ -130,26 +130,10 @@ span {
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
-  margin-top: 15px;
 }
 @media (max-width: 575.98px) {
   .left-container {
-    background-size: cover;
-    height: 0vh;
-    width: 0vw;
-  }
-  .left-container h1 {
-    font-size: 0px;
-  }
-  .left-container p {
-    font-size: 0px;
-  }
-  .person {
-    height: 0px;
-    width: 0px;
-  }
-  .join-us p {
-    font-size: 0px;
+    display: none;
   }
   .right-container {
     width: 70vw;
@@ -160,23 +144,9 @@ span {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .left-container {
-    background-size: cover;
-    height: 0vh;
-    width: 0vw;
+    display: none;
   }
-  .left-container h1 {
-    font-size: 0px;
-  }
-  .left-container p {
-    font-size: 0px;
-  }
-  .person {
-    height: 0px;
-    width: 0px;
-  }
-  .join-us p {
-    font-size: 0px;
-  }
+  
   .right-container {
     width: 70vw;
     border-radius: 20px;
@@ -190,17 +160,21 @@ span {
     width: 50vw;
   }
   .right-container {
-    width: 45vw;
+    width: 35vw;
     height: 90vh;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .left-container {
     height: 90vh;
-    width: 60vw;
+    width: 50vw;
   }
   .right-container {
-    width: 40vw;
+    width: 35vw;
     height: 90vh;
+   
+  }
+  .signup-container{
+    margin-left: 5px;
   }
 }
