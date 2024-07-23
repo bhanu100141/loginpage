@@ -15,9 +15,10 @@
   background-image: url("https://res.cloudinary.com/dgkru5vsg/image/upload/v1721053007/syoftBGIMG_pvzy6x.avif");
   background-size: cover;
   height: 90vh;
-  width: 60vw;
+  width: 50vw;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  margin-left: 100px;
 }
 .left-container h1 {
   color: #ffffff;
@@ -146,7 +147,7 @@ span {
   .left-container {
     display: none;
   }
-  
+
   .right-container {
     width: 70vw;
     border-radius: 20px;
@@ -158,23 +159,43 @@ span {
   .left-container {
     height: 90vh;
     width: 50vw;
+    margin-left: 50px;
+  }
+  .left-container h1 {
+    font-size: 30px;
+  }
+  .left-container p {
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .person {
+    display: none;
+  }
+  .join-us p {
+    margin: 25px 0px 35px 19px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #d0d0d0;
   }
   .right-container {
-    width: 35vw;
+    width: 40vw;
     height: 90vh;
+  }
+  .signup-container {
+    padding: 40px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .left-container {
     height: 90vh;
     width: 50vw;
+    margin-left: 50px;
   }
   .right-container {
-    width: 35vw;
+    width: 40vw;
     height: 90vh;
-   
   }
-  .signup-container{
+  .signup-container {
     margin-left: 5px;
   }
 }
